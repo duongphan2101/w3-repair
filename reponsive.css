@@ -1,0 +1,79 @@
+@media (min-width: 1024px) {
+
+}
+
+
+/* tablet */
+@media (min-width: 740px) and (max-width: 1023px) {
+
+}
+
+/* mobile */
+@media (max-width: 740px) {
+    .box-sub{
+        display: none;
+    }
+
+    .review-member{
+        display: block;
+    }
+
+    .btn-list{
+        display: block;
+    }
+
+    .btn-search{
+        display: none;
+    }
+
+    .navigation li {
+        display: block;
+    }
+
+    .navigation{
+        height: auto;
+    }
+
+    .sub-nav{
+        top: 234px;
+    }
+
+    .mem{
+        float: left;
+        width: 100%;
+        margin-bottom: 16px;
+    }
+
+    .three-location{
+        display: block;
+    }
+
+    .location{
+        width: 100%;
+    }
+
+    .box-contact{
+        display: block;
+    }
+
+    .box-contact-left{
+        width: 100%;
+    }
+
+    .box-contact-right{
+        width: 100%;
+    }
+
+    .inp-name-mail{
+        display: block;
+    }
+
+    .modal-content{
+        padding-top: 55px;
+        max-width: 95%;
+    }
+
+    .blackfilm{
+        height: 59%;
+    }
+}
